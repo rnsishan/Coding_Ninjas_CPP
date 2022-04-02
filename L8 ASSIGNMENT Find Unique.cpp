@@ -37,6 +37,22 @@ int findUnique(int *arr, int size)
         	
             
             }
+            
+            /*
+            better code
+            time complexity considered
+            
+            int findUnique(int *arr, int n) {
+            //use XOR
+    
+            int r = 0;
+            for(int i=0; i<n; i++){
+            r  = r ^ arr[i];
+            }
+            return r;
+            }
+            
+            */
 
         }
 
